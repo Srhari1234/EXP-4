@@ -18,3 +18,15 @@ CODE2:
 OUTPUT2:
 
 ![image](https://github.com/user-attachments/assets/cb23415c-81d1-43d3-a572-c1650a0d38d0)
+
+Conclusion:
+
+Studying and implementing bitwise operators in C++ is essential for manipulating data at the bit level. Key operators include:
+
+AND (&): Performs bitwise AND.
+OR (|): Performs bitwise OR.
+XOR (^): Performs bitwise XOR.
+NOT (~): Performs bitwise NOT (complement).
+Left Shift (<<): Shifts bits to the left.
+Right Shift (>>): Shifts bits to the right.
+These operators allow for efficient low-level data processing and optimization in your programs.

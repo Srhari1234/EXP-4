@@ -1,32 +1,77 @@
 # EXP-4
-Aim:To study and implement decision making statements.
+## Aim:To study and implement decision making statements.
 
-Theory:We learned how to find the greatest number using if-else statements and even nested if. We learned to use switch cases. If else is a conditional statement that is used when there are multiple conditions, such as if one number is greater than another or if the user selects one option over another. Nested if else is a type of conditional statement, but it is nested within another to reduce code length. It can be difficult to understand, though. The switch expression is evaluated once, and the result is compared to the values of each case. If there is a match, the corresponding block of code is executed.
+## Theory:We learned how to find the greatest number using if-else statements and even nested if. We learned to use switch cases. If else is a conditional statement that is used when there are multiple conditions, such as if one number is greater than another or if the user selects one option over another. Nested if else is a type of conditional statement, but it is nested within another to reduce code length. It can be difficult to understand, though. The switch expression is evaluated once, and the result is compared to the values of each case. If there is a match, the corresponding block of code is executed.
 
-CODE1:
+## CODE1:
 
-![image](https://github.com/user-attachments/assets/dedddbf7-e034-4b12-9edc-32d32b2c45fc)
-
-OUTPUT1:
-
-![image](https://github.com/user-attachments/assets/b5555446-72f8-4cb8-ad89-d3d78476655d)
+```
+//Name: Srihari Nair
+//PRN: 23070123131
+//EnTC B-2
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b;
+	cout<<"Enter the value of a: ";
+    cin>>a;
+    cout<<"Enter the value of b: ";
+    cin>>b;
+    if (a<5 && b>10)
+    	cout<<"True"<<endl;
+    else
+    	cout<<"False"<<endl;
+    if (a>5 || b<10)
+    	cout<<"True"<<endl;
+    else
+    	cout<<"False"<<endl;
+    if (!(a<2 && b>0))
+    	cout<<"True"<<endl;
+    else 
+    	cout<<"False"<<endl;
+			return 0;
+}
+```
 
 CODE2:
 
-![image](https://github.com/user-attachments/assets/cd311fb3-e0f5-4f9a-a4ac-df998fa3f3f1)
+```
+//Name: Srihari Nair
+//PRN: 23070123131
+//EnTC B-2
+#include <iostream>
+using namespace std;
+int main() {
+	int a, b;
+	cout<<"Enter the value of a: ";
+    cin>>a;
+    cout<<"Enter the value of b: ";
+    cin>>b;
+	int bitwise_and = a & b;
+	cout<<"AND operator: "<<bitwise_and<<endl;
+	int bitwise_or = a | b;
+	cout<<"OR operator: "<<bitwise_or<<endl;
+	int bitwise_xor = a^b;
+	cout<<"XOR operator: "<<bitwise_xor<<endl;
+	int bitwise_not = ~a;
+	cout<<"NOT operator: "<<bitwise_not<<endl;
+	int left_shift = a<<1;
+	cout<<"LEFT SHIFT operator: "<<left_shift<<endl;
+	int right_shift = a>>9;
+	cout<<"RIGHT SHIFT operator: "<<right_shift<<endl;
+	return 0;
+}
+```
 
-OUTPUT2:
+## Conclusion:
 
-![image](https://github.com/user-attachments/assets/cb23415c-81d1-43d3-a572-c1650a0d38d0)
+Studying and implementing bitwise operators in C++ is essential for manipulating data at the bit level.
+Key operators include:
 
-Conclusion:
-
-Studying and implementing bitwise operators in C++ is essential for manipulating data at the bit level. Key operators include:
-
-AND (&): Performs bitwise AND.
-OR (|): Performs bitwise OR.
-XOR (^): Performs bitwise XOR.
-NOT (~): Performs bitwise NOT (complement).
-Left Shift (<<): Shifts bits to the left.
-Right Shift (>>): Shifts bits to the right.
+### 1. AND (&): Performs bitwise AND.
+### 2. OR (|): Performs bitwise OR.
+### 3. XOR (^): Performs bitwise XOR.
+### 4. NOT (~): Performs bitwise NOT (complement).
+### 5. Left Shift (<<): Shifts bits to the left.
+### 6. Right Shift (>>): Shifts bits to the right.
 These operators allow for efficient low-level data processing and optimization in your programs.
